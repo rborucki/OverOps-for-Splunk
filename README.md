@@ -28,6 +28,9 @@ From within Splunk:
 
 6. Now in Splunk, you should see OverOps for Splunk app ( Apps -> OverOps for Splunk ) 
 
-Note: Drill-through links to the OverOps root cause analysis will need to be updated with administration access.  
+Drill-down to OverOps Root Cause Analysis:
+Drill-through links to the OverOps root cause analysis will need to be updated with administration access.  
 The dashboards are Application Drill-down, Application Drill-down-drillthrough and Continuous Reliability. In each of these dashboards, there is a table visualization.  Edit dashboards -> More details -> Edit Drilldown.  
 https://<overopsserver>/tinykey/$row.RootCause|n$
+  
+Please be aware that some visuals in the main dashboard will take a couple days to populate as there are some day over day comparisons, hence the index will need to be filled with the appropriate data.
